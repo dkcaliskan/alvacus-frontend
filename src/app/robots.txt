@@ -12,7 +12,7 @@ Disallow: /404
 Disallow: /500
 
 # Host
-Host: https://localhost:3000
+Host: https://www.alvacus.com
 
 # Sitemaps
-Sitemap: https://localhost:3000/sitemap.xml
+Sitemap: https://www.alvacus.com/sitemap.xml

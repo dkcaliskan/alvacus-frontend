@@ -1,8 +1,7 @@
 // Api & Core imports
 import Link from 'next/link';
 
-// Styles
-import './not-found.css';
+
 
 const NotFound = () => {
   return (

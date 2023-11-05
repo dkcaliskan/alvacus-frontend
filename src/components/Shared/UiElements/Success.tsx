@@ -1,8 +1,5 @@
 import React, { FunctionComponent } from 'react';
 
-// Styles
-import './success.css';
-
 // Types
 type SuccessMessageTypes = {
   children: React.ReactNode;

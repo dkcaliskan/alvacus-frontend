@@ -15,6 +15,7 @@ import Info from '../../_components/Info';
 // Dynamic imports
 const ModularCalculator = dynamic(() => import('./_components/Calculator'), {
   ssr: false,
+  loading: () => <Loader />,
 });
 const Comments = dynamic(() => import('../../_components/Comments'), {
   ssr: false,

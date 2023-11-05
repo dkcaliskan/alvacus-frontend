@@ -1,5 +1,4 @@
 // Api & Core imports
-import { Alexandria } from 'next/font/google';
 import NextTopLoader from 'nextjs-toploader';
 
 // UI & Icon imports
@@ -20,6 +19,7 @@ type RootLayoutTypes = {
 };
 
 // Font
+import { Alexandria } from 'next/font/google';
 const alexandria = Alexandria({ subsets: ['latin'] });
 
 // Metadata
