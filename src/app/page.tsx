@@ -19,11 +19,11 @@ const Home = () => {
           </Suspense>
         </section> */}
 
-        <section className='lg:order-first lgMax:hidden lg:col-span-2'>
+        {/* <section className='lg:order-first lgMax:hidden lg:col-span-2'>
           <Suspense fallback={<Loader />}>
             <Tags />
           </Suspense>
-        </section>
+        </section> */}
 
         <section className='lg:col-span-2 lgMax:hidden'>
           <Suspense fallback={<ProfileSideSkeleton />}>
