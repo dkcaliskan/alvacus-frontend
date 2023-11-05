@@ -1,0 +1,14 @@
+[
+  { "value": "placeholder", "label": "Frequency", "category": "frequency" },
+  { "value": "hertz", "label": "hertz (Hz)", "category": "electric" },
+  { "value": "kilohertz", "label": "kilohertz (kHz)", "category": "frequency" },
+  { "value": "megahertz", "label": "megahertz (MHz)", "category": "frequency" },
+  { "value": "gigahertz", "label": "gigahertz (GHz)", "category": "frequency" },
+  { "value": "terahertz", "label": "terahertz (THz)", "category": "frequency" },
+  { "value": "petahertz", "label": "petahertz (PHz)", "category": "frequency" },
+  {
+    "value": "revolutions-per-minute",
+    "label": "revolutions per minute (rpm)",
+    "category": "frequency"
+  }
+]

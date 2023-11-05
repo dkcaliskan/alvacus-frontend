@@ -1,0 +1,27 @@
+[
+  {
+    "value": "placeholder",
+    "label": "Volume or capacity",
+    "category": "volume"
+  },
+  { "value": "liter", "label": "liter (L)", "category": "volume" },
+  { "value": "milliliter", "label": "milliliter (mL)", "category": "volume" },
+  { "value": "cubic-meter", "label": "cubic meter (m³)", "category": "volume" },
+  {
+    "value": "cubic-centimeter",
+    "label": "cubic centimeter (cm³)",
+    "category": "volume"
+  },
+  { "value": "gallon", "label": "gallon (gal)", "category": "volume" },
+  { "value": "quart", "label": "quart (qt)", "category": "volume" },
+  { "value": "pint", "label": "pint (pt)", "category": "volume" },
+  {
+    "value": "fluid-ounce",
+    "label": "fluid ounce (fl oz)",
+    "category": "volume"
+  },
+  { "value": "barrel", "label": "barrel (bbl)", "category": "volume" },
+  { "value": "hogshead", "label": "hogshead (hhd)", "category": "volume" },
+  { "value": "teaspoon", "label": "teaspoon (tsp)", "category": "volume" },
+  { "value": "tablespoon", "label": "tablespoon (tbsp)", "category": "volume" }
+]

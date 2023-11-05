@@ -1,0 +1,11 @@
+[
+  { "value": "placeholder", "label": "Mass or weight", "category": "mass" },
+  { "value": "kilogram", "label": "kilogram (kg)", "category": "mass" },
+  { "value": "gram", "label": "gram (g)", "category": "mass" },
+  { "value": "milligram", "label": "milligram (mg)", "category": "mass" },
+  { "value": "microgram", "label": "microgram (µg)", "category": "mass" },
+  { "value": "tonne", "label": "tonne (t)", "category": "mass" },
+  { "value": "ounce", "label": "ounce (oz)", "category": "mass" },
+  { "value": "pound", "label": "pound (lb)", "category": "mass" },
+  { "value": "stone", "label": "stone (st)", "category": "mass" }
+]

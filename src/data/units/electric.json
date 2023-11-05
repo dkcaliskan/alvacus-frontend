@@ -1,0 +1,24 @@
+[
+  {
+    "value": "placeholder",
+    "label": "Electric current",
+    "category": "electric"
+  },
+  { "value": "ampere", "label": "ampere (A)", "category": "electric" },
+  {
+    "value": "milliampere",
+    "label": "milliampere (mA)",
+    "category": "electric"
+  },
+  {
+    "value": "microampere",
+    "label": "microampere (μA)",
+    "category": "electric"
+  },
+  { "value": "nanoampere", "label": "nanoampere (nA)", "category": "electric" },
+  { "value": "picoampere", "label": "picoampere (pA)", "category": "electric" },
+  { "value": "kiloampere", "label": "kiloampere (kA)", "category": "electric" },
+  { "value": "megaampere", "label": "megaampere (MA)", "category": "electric" },
+  { "value": "gigaampere", "label": "megaampere (MA)", "category": "electric" },
+  { "value": "gilbert", "label": "gilbert (Gi)", "category": "electric" }
+]

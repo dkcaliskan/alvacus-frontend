@@ -1,0 +1,230 @@
+[
+  {
+    "value": "placeholder",
+    "label": "Length or distance",
+    "category": "length"
+  },
+  { "value": "meter", "label": "meter (m)", "category": "length" },
+  { "value": "kilometer", "label": "kilometer (km)", "category": "length" },
+  { "value": "centimeter", "label": "centimeter (cm)", "category": "length" },
+  { "value": "millimeter", "label": "millimeter (mm)", "category": "length" },
+  { "value": "micrometer", "label": "micrometer (µm)", "category": "length" },
+  { "value": "nanometer", "label": "nanometer (nm)", "category": "length" },
+  { "value": "inch", "label": "inch (in)", "category": "length" },
+  { "value": "foot", "label": "foot (ft)", "category": "length" },
+  { "value": "yard", "label": "yard (yd)", "category": "length" },
+  { "value": "mile", "label": "mile (mi)", "category": "length" },
+  {
+    "value": "nautical-mile",
+    "label": "nautical mile (nmi)",
+    "category": "length"
+  },
+  { "value": "angstrom", "label": "angstrom (Å)", "category": "length" },
+  { "value": "fathom", "label": "fathom (ftm)", "category": "length" },
+  { "value": "hand", "label": "hand", "category": "length" },
+  { "value": "light-year", "label": "light year (ly)", "category": "length" },
+  { "value": "parsec", "label": "parsec (pc)", "category": "length" },
+  { "value": "rod", "label": "rod (rd)", "category": "length" },
+  { "value": "chain", "label": "chain (ch)", "category": "length" },
+  {
+    "value": "astronomical-unit",
+    "label": "astronomical unit (AU)",
+    "category": "length"
+  },
+  { "value": "ell", "label": "ell", "category": "length" },
+
+  { "value": "placeholder", "label": "Mass or weight", "category": "mass" },
+  { "value": "kilogram", "label": "kilogram (kg)", "category": "mass" },
+  { "value": "gram", "label": "gram (g)", "category": "mass" },
+  { "value": "milligram", "label": "milligram (mg)", "category": "mass" },
+  { "value": "microgram", "label": "microgram (µg)", "category": "mass" },
+  { "value": "tonne", "label": "tonne (t)", "category": "mass" },
+  { "value": "ounce", "label": "ounce (oz)", "category": "mass" },
+  { "value": "pound", "label": "pound (lb)", "category": "mass" },
+  { "value": "stone", "label": "stone (st)", "category": "mass" },
+
+  {
+    "value": "placeholder",
+    "label": "Volume or capacity",
+    "category": "volume"
+  },
+  { "value": "liter", "label": "liter (L)", "category": "volume" },
+  { "value": "milliliter", "label": "milliliter (mL)", "category": "volume" },
+  { "value": "cubic-meter", "label": "cubic meter (m³)", "category": "volume" },
+  {
+    "value": "cubic-centimeter",
+    "label": "cubic centimeter (cm³)",
+    "category": "volume"
+  },
+  {
+    "value": "cubic-inch",
+    "label": "cubic inch (in³)",
+    "category": "volume"
+  },
+  {
+    "value": "cubic-foot",
+    "label": "cubic foot (ft³)",
+    "category": "volume"
+  },
+
+  { "value": "gallon", "label": "gallon (gal)", "category": "volume" },
+  { "value": "quart", "label": "quart (qt)", "category": "volume" },
+  { "value": "pint", "label": "pint (pt)", "category": "volume" },
+  {
+    "value": "fluid-ounce",
+    "label": "fluid ounce (fl oz)",
+    "category": "volume"
+  },
+  { "value": "barrel", "label": "barrel (bbl)", "category": "volume" },
+  { "value": "hogshead", "label": "hogshead (hhd)", "category": "volume" },
+  { "value": "teaspoon", "label": "teaspoon (tsp)", "category": "volume" },
+  { "value": "tablespoon", "label": "tablespoon (tbsp)", "category": "volume" },
+
+  { "value": "placeholder", "label": "Time", "category": "time" },
+  { "value": "second", "label": "second (s)", "category": "time" },
+  { "value": "millisecond", "label": "millisecond (ms)", "category": "time" },
+  { "value": "microsecond", "label": "microsecond (µs)", "category": "time" },
+  { "value": "nanosecond", "label": "nanosecond (ns)", "category": "time" },
+  { "value": "minute", "label": "minute (min)", "category": "time" },
+  { "value": "hour", "label": "hour (h)", "category": "time" },
+  { "value": "day", "label": "day (d)", "category": "time" },
+  { "value": "week", "label": "week", "category": "time" },
+  { "value": "month", "label": "month", "category": "time" },
+  { "value": "year", "label": "year (yr)", "category": "time" },
+  { "value": "decade", "label": "decade", "category": "time" },
+  { "value": "century", "label": "century", "category": "time" },
+  { "value": "millennium", "label": "millennium", "category": "time" },
+
+  { "value": "placeholder", "label": "Temperature", "category": "temperature" },
+  { "value": "celsius", "label": "celsius (°C)", "category": "temperature" },
+  {
+    "value": "fahrenheit",
+    "label": "fahrenheit (°F)",
+    "category": "temperature"
+  },
+  { "value": "kelvin", "label": "kelvin (K)", "category": "temperature" },
+  { "value": "rankine", "label": "rankine (°R)", "category": "temperature" },
+  { "value": "delisle", "label": "delisle (°De)", "category": "temperature" },
+  { "value": "newton", "label": "newton (°N)", "category": "temperature" },
+  { "value": "reaumur", "label": "réaumur (°Ré)", "category": "temperature" },
+  { "value": "romer", "label": "romer (°Rø)", "category": "temperature" },
+
+  { "value": "placeholder", "label": "Area", "category": "area" },
+  { "value": "square-meter", "label": "square meter (m²)", "category": "area" },
+  {
+    "value": "square-kilometer",
+    "label": "square kilometer (km²)",
+    "category": "area"
+  },
+  {
+    "value": "square-centimeter",
+    "label": "square centimeter (cm²)",
+    "category": "area"
+  },
+  {
+    "value": "square-millimeter",
+    "label": "square millimeter (mm²)",
+    "category": "area"
+  },
+  { "value": "hectare", "label": "hectare (ha)", "category": "area" },
+  { "value": "acre", "label": "acre (ac)", "category": "area" },
+  { "value": "square-mile", "label": "square mile (mi²)", "category": "area" },
+  { "value": "square-yard", "label": "square yard (yd²)", "category": "area" },
+  { "value": "square-foot", "label": "square foot (ft²)", "category": "area" },
+  { "value": "square-inch", "label": "square inch (in²)", "category": "area" },
+
+  { "value": "placeholder", "label": "Energy", "category": "energy" },
+  { "value": "joule", "label": "joule (J)", "category": "energy" },
+  { "value": "kilojoule", "label": "kilojoule (kJ)", "category": "energy" },
+  { "value": "megajoule", "label": "megajoule (MJ)", "category": "energy" },
+  { "value": "gigajoule", "label": "gigajoule (GJ)", "category": "energy" },
+  { "value": "calorie", "label": "calorie (cal)", "category": "energy" },
+  {
+    "value": "kilocalorie",
+    "label": "kilocalorie (kcal)",
+    "category": "energy"
+  },
+  {
+    "value": "british-thermal-unit",
+    "label": "British thermal unit (BTU)",
+    "category": "energy"
+  },
+  {
+    "value": "electronvolt",
+    "label": "electronvolt (eV)",
+    "category": "energy"
+  },
+  { "value": "watt-hour", "label": "watt-hour (Wh)", "category": "energy" },
+  {
+    "value": "kilowatt-hour",
+    "label": "kilowatt-hour (kWh)",
+    "category": "energy"
+  },
+  {
+    "value": "megawatt-hour",
+    "label": "megawatt-hour (MWh)",
+    "category": "energy"
+  },
+
+  {
+    "value": "placeholder",
+    "label": "Electric current",
+    "category": "electric"
+  },
+  { "value": "ampere", "label": "ampere (A)", "category": "electric" },
+  {
+    "value": "milliampere",
+    "label": "milliampere (mA)",
+    "category": "electric"
+  },
+  {
+    "value": "microampere",
+    "label": "microampere (μA)",
+    "category": "electric"
+  },
+  { "value": "nanoampere", "label": "nanoampere (nA)", "category": "electric" },
+  { "value": "picoampere", "label": "picoampere (pA)", "category": "electric" },
+  { "value": "kiloampere", "label": "kiloampere (kA)", "category": "electric" },
+  { "value": "megaampere", "label": "megaampere (MA)", "category": "electric" },
+  { "value": "gigaampere", "label": "megaampere (MA)", "category": "electric" },
+  { "value": "gilbert", "label": "gilbert (Gi)", "category": "electric" },
+
+  { "value": "placeholder", "label": "Frequency", "category": "frequency" },
+  { "value": "hertz", "label": "hertz (Hz)", "category": "electric" },
+  { "value": "kilohertz", "label": "kilohertz (kHz)", "category": "frequency" },
+  { "value": "megahertz", "label": "megahertz (MHz)", "category": "frequency" },
+  { "value": "gigahertz", "label": "gigahertz (GHz)", "category": "frequency" },
+  { "value": "terahertz", "label": "terahertz (THz)", "category": "frequency" },
+  { "value": "petahertz", "label": "petahertz (PHz)", "category": "frequency" },
+  {
+    "value": "revolutions-per-minute",
+    "label": "revolutions per minute (rpm)",
+    "category": "frequency"
+  },
+
+  { "value": "placeholder", "label": "Pressure", "category": "pressure" },
+  { "value": "pascal", "label": "pascal (Pa)", "category": "pressure" },
+  {
+    "value": "kilopascal",
+    "label": "kilopascal (kPa)",
+    "category": "pressure"
+  },
+  {
+    "value": "megapascal",
+    "label": "megapascal (MPa)",
+    "category": "pressure"
+  },
+  { "value": "bar", "label": "bar", "category": "pressure" },
+  { "value": "millibar", "label": "millibar (mbar)", "category": "pressure" },
+  {
+    "value": "psi",
+    "label": "pounds per square inch (psi)",
+    "category": "pressure"
+  },
+  {
+    "value": "atmosphere",
+    "label": "standard atmosphere (atm)",
+    "category": "pressure"
+  },
+  { "value": "torr", "label": "torr (mmHg)", "category": "pressure" }
+]

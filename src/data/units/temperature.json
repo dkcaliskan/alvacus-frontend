@@ -1,0 +1,15 @@
+[
+  { "value": "placeholder", "label": "Temperature", "category": "temperature" },
+  { "value": "celsius", "label": "celsius (°C)", "category": "temperature" },
+  {
+    "value": "fahrenheit",
+    "label": "fahrenheit (°F)",
+    "category": "temperature"
+  },
+  { "value": "kelvin", "label": "kelvin (K)", "category": "temperature" },
+  { "value": "rankine", "label": "rankine (°R)", "category": "temperature" },
+  { "value": "delisle", "label": "delisle (°De)", "category": "temperature" },
+  { "value": "newton", "label": "newton (°N)", "category": "temperature" },
+  { "value": "réaumur", "label": "réaumur (°Ré)", "category": "temperature" },
+  { "value": "romer", "label": "romer (°Rø)", "category": "temperature" }
+]

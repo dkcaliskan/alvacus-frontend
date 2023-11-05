@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html {
+    @apply scroll-smooth subpixel-antialiased overscroll-y-contain;
+  }
+  body {
+    @apply overscroll-y-contain h-screen;
+  }
+}
+
+@layer components {
+  .logo-text {
+    text-shadow: 30px 5px 25px #d99c32;
+  }
+
+  .input-icon {
+    @apply absolute left-2 top-[12px] transition ease-in-out text-[22px];
+  }
+
+  input[type='number']::-webkit-inner-spin-button {
+    display: none;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  /* custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+}

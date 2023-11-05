@@ -1,0 +1,37 @@
+[
+  {
+    "value": "placeholder",
+    "label": "Length or distance",
+    "category": "length"
+  },
+  { "value": "meter", "label": "meter (m)", "category": "length" },
+  { "value": "kilometer", "label": "kilometer (km)", "category": "length" },
+  { "value": "centimeter", "label": "centimeter (cm)", "category": "length" },
+  { "value": "millimeter", "label": "millimeter (mm)", "category": "length" },
+  { "value": "micrometer", "label": "micrometer (µm)", "category": "length" },
+  { "value": "nanometer", "label": "nanometer (nm)", "category": "length" },
+  { "value": "inch", "label": "inch (in)", "category": "length" },
+  { "value": "foot", "label": "foot (ft)", "category": "length" },
+  { "value": "yard", "label": "yard (yd)", "category": "length" },
+  { "value": "mile", "label": "mile (mi)", "category": "length" },
+  {
+    "value": "nautical-mile",
+    "label": "nautical mile (nmi)",
+    "category": "length"
+  },
+  { "value": "angstrom", "label": "angstrom (Å)", "category": "length" },
+  { "value": "fathom", "label": "fathom (ftm)", "category": "length" },
+  { "value": "hand", "label": "hand", "category": "length" },
+  { "value": "league", "label": "league", "category": "length" },
+  { "value": "light year", "label": "light year (ly)", "category": "length" },
+  { "value": "parsec", "label": "parsec (pc)", "category": "length" },
+  { "value": "rod", "label": "rod (rd)", "category": "length" },
+  { "value": "chain", "label": "chain (ch)", "category": "length" },
+  {
+    "value": "astronomical-unit",
+    "label": "astronomical unit (AU)",
+    "category": "length"
+  },
+  { "value": "ell", "label": "ell", "category": "length" },
+  { "value": "cubit", "label": "cubit", "category": "length" }
+]

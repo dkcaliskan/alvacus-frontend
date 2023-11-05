@@ -1,0 +1,25 @@
+[
+  { "value": "placeholder", "label": "Area", "category": "area" },
+  { "value": "square-meter", "label": "square meter (m²)", "category": "area" },
+  {
+    "value": "square-kilometer",
+    "label": "square kilometer (km²)",
+    "category": "area"
+  },
+  {
+    "value": "square-centimeter",
+    "label": "square centimeter (cm²)",
+    "category": "area"
+  },
+  {
+    "value": "square-millimeter",
+    "label": "square millimeter (mm²)",
+    "category": "area"
+  },
+  { "value": "hectare", "label": "hectare (ha)", "category": "area" },
+  { "value": "acre", "label": "acre (ac)", "category": "area" },
+  { "value": "square-mile", "label": "square mile (mi²)", "category": "area" },
+  { "value": "square-yard", "label": "square yard (yd²)", "category": "area" },
+  { "value": "square-foot", "label": "square foot (ft²)", "category": "area" },
+  { "value": "square-inch", "label": "square inch (in²)", "category": "area" }
+]

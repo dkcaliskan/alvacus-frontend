@@ -1,0 +1,27 @@
+[
+  { "value": "placeholder", "label": "Pressure", "category": "pressure" },
+  { "value": "pascal", "label": "pascal (Pa)", "category": "pressure" },
+  {
+    "value": "kilopascal",
+    "label": "kilopascal (kPa)",
+    "category": "pressure"
+  },
+  {
+    "value": "megapascal",
+    "label": "megapascal (MPa)",
+    "category": "pressure"
+  },
+  { "value": "bar", "label": "bar (bar)", "category": "pressure" },
+  { "value": "millibar", "label": "millibar (mbar)", "category": "pressure" },
+  {
+    "value": "psi",
+    "label": "pounds per square inch (psi)",
+    "category": "pressure"
+  },
+  {
+    "value": "atmosphere",
+    "label": "standard atmosphere (atm)",
+    "category": "pressure"
+  },
+  { "value": "torr", "label": "torr (mmHg)", "category": "pressure" }
+]

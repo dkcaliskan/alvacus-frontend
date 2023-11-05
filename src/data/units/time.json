@@ -1,0 +1,16 @@
+[
+  { "value": "placeholder", "label": "Time", "category": "time" },
+  { "value": "second", "label": "second (s)", "category": "time" },
+  { "value": "millisecond", "label": "millisecond (ms)", "category": "time" },
+  { "value": "microsecond", "label": "microsecond (µs)", "category": "time" },
+  { "value": "nanosecond", "label": "nanosecond (ns)", "category": "time" },
+  { "value": "minute", "label": "minute (min)", "category": "time" },
+  { "value": "hour", "label": "hour (h)", "category": "time" },
+  { "value": "day", "label": "day (d)", "category": "time" },
+  { "value": "week", "label": "week (w)", "category": "time" },
+  { "value": "month", "label": "month (m)", "category": "time" },
+  { "value": "year", "label": "year (yr)", "category": "time" },
+  { "value": "decade", "label": "decade (dec)", "category": "time" },
+  { "value": "century", "label": "century (cent)", "category": "time" },
+  { "value": "millennium", "label": "millennium (mil)", "category": "time" }
+]

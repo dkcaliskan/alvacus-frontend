@@ -1,0 +1,34 @@
+[
+  { "value": "placeholder", "label": "Energy", "category": "energy" },
+  { "value": "joule", "label": "joule (J)", "category": "energy" },
+  { "value": "kilojoule", "label": "kilojoule (kJ)", "category": "energy" },
+  { "value": "megajoule", "label": "megajoule (MJ)", "category": "energy" },
+  { "value": "gigajoule", "label": "gigajoule (GJ)", "category": "energy" },
+  { "value": "calorie", "label": "calorie (cal)", "category": "energy" },
+  {
+    "value": "kilocalorie",
+    "label": "kilocalorie (kcal)",
+    "category": "energy"
+  },
+  {
+    "value": "british-thermal-unit",
+    "label": "British thermal unit (BTU)",
+    "category": "energy"
+  },
+  {
+    "value": "electronvolt",
+    "label": "electronvolt (eV)",
+    "category": "energy"
+  },
+  { "value": "watt-hour", "label": "watt-hour (Wh)", "category": "energy" },
+  {
+    "value": "kilowatt-hour",
+    "label": "kilowatt-hour (kWh)",
+    "category": "energy"
+  },
+  {
+    "value": "megawatt-hour",
+    "label": "megawatt-hour (MWh)",
+    "category": "energy"
+  }
+]
