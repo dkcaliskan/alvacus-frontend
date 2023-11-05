@@ -34,9 +34,9 @@ const SortCalcs: FunctionComponent = () => {
 
   return (
     <div className='dropdown  dropdown-end z-40'>
-      <label tabIndex={0} className='btn normal-case btn-ghost'>
+      <span tabIndex={0} className='btn normal-case btn-ghost'>
         <AiOutlineSortAscending className='' role='' size={25} />
-      </label>
+      </span>
       <div
         tabIndex={0}
         className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52'

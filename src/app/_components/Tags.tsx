@@ -42,6 +42,9 @@ const Tags: FunctionComponent<TagsTypes> = ({
 
     // push the new url with the updated params
     router.push(pathname + '?' + updateParams.toString());
+
+    // Set the drawer to close
+    setIsTagsDrawerOpen(false);
   };
 
   return (
@@ -60,7 +63,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('all');
               }}
               disabled={selectedTag === 'all' ? true : false}
@@ -76,7 +79,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('chemistry');
               }}
               disabled={selectedTag === 'chemistry' ? true : false}
@@ -92,7 +95,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('conversion');
               }}
               disabled={selectedTag === 'conversion' ? true : false}
@@ -108,7 +111,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('engineering');
               }}
               disabled={selectedTag === 'engineering' ? true : false}
@@ -124,7 +127,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('finance');
               }}
               disabled={selectedTag === 'finance' ? true : false}
@@ -140,7 +143,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('geometry');
               }}
               disabled={selectedTag === 'geometry' ? true : false}
@@ -156,7 +159,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('mathematic');
               }}
               disabled={selectedTag === 'mathematic' ? true : false}
@@ -172,7 +175,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('medical');
               }}
               disabled={selectedTag === 'medical' ? true : false}
@@ -188,7 +191,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('physics');
               }}
               disabled={selectedTag === 'physics' ? true : false}
@@ -204,7 +207,7 @@ const Tags: FunctionComponent<TagsTypes> = ({
                   : 'rounded-lg btn-ghost'
               }  w-full py-[10px] hover:shadow transition ease-in-out duration-200 text-left pl-[20px]`}
               onClick={() => {
-                setIsTagsDrawerOpen(false);
+                
                 tagHandler('other');
               }}
               disabled={selectedTag === 'other' ? true : false}

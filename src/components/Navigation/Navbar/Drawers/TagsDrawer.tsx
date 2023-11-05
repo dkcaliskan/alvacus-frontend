@@ -2,13 +2,16 @@
 
 // API & Core
 import React, { useState, FunctionComponent, useEffect } from 'react';
-import { usePathname } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 
 // Components
 import Tags from '@/app/_components/Tags';
 
 const TagsDrawer: FunctionComponent = () => {
   const pathname = usePathname();
+  const params = useSearchParams();
+
+  const tag = params.get('tag');
 
   // Tags Drawer State
   const [isTagsDrawerOpen, setIsTagsDrawerOpen] = useState(false);
@@ -20,7 +23,7 @@ const TagsDrawer: FunctionComponent = () => {
 
     //! Disabling this eslint rule because preventing the useEffect from running on every render is not necessary
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pathname]);
+  }, [tag, pathname]);
 
   const sideDrawerHandler = async () => {
     if (isTagsDrawerOpen) {
@@ -60,7 +63,7 @@ const TagsDrawer: FunctionComponent = () => {
           {isTagsDrawerOpen && (
             <div>
               <div
-                className={`absolute bg-base-100 z-50 h-screen w-full top-0 left-0 overflow-x-auto p-1.5`}
+                className={`absolute bg-base-100 z-50 h-screen w-full top-0 left-0 overflow-x-auto p-1 pb-12`}
               >
                 <button
                   onClick={() => sideDrawerHandler()}

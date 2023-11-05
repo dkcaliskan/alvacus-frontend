@@ -4,7 +4,7 @@
 import React, { useState, FunctionComponent, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { usePathname } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 
 // Components
 import ProfileSidebar from '@/components/Shared/ProfileSidebar';
@@ -19,6 +19,9 @@ import { PROFILE_PLACEHOLDER } from '@/constants/ImageConstants';
 const ProfileDrawer: FunctionComponent = () => {
   const { user, isLoading } = useUser();
   const pathname = usePathname();
+  const params = useSearchParams();
+
+  const list = params.get('list');
 
   // Profile Drawer State
   const [isProfileDrawerOpen, setIsProfileDrawerOpen] = useState(false);
@@ -30,7 +33,7 @@ const ProfileDrawer: FunctionComponent = () => {
 
     //! Disabling this eslint rule because preventing the useEffect from running on every render is not necessary
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pathname]);
+  }, [pathname, list]);
 
   const sideDrawerHandler = async () => {
     if (isProfileDrawerOpen) {
@@ -100,7 +103,7 @@ const ProfileDrawer: FunctionComponent = () => {
       {isProfileDrawerOpen && (
         <div>
           <div
-            className={`absolute bg-base-100 z-50 h-screen w-full top-0 left-0 overflow-x-auto p-1.5`}
+            className={`absolute bg-base-100 z-50 h-screen w-full top-0 left-0 overflow-x-auto p-1 pb-12`}
           >
             <button
               onClick={() => sideDrawerHandler()}
@@ -120,10 +123,10 @@ const ProfileDrawer: FunctionComponent = () => {
             </button>
             <ProfileSidebar setIsProfileDrawerOpen={setIsProfileDrawerOpen} />
           </div>
-          <div
+          {/* <div
             className='fixed left-0 top-[65px] w-screen h-screen z-30 bg-black/50'
             onClick={() => sideDrawerHandler()}
-          ></div>
+          ></div> */}
         </div>
       )}
     </div>
