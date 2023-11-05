@@ -4,6 +4,7 @@ const nextConfig = {
     locales: ['en-US'],
     defaultLocale: 'en-US',
   },
+
   images: {
     remotePatterns: [
       {
