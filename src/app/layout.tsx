@@ -7,9 +7,7 @@ import './globals.css';
 // Components
 import Navbar from '@/components/Navigation/Navbar';
 import Provider from './Provider';
-
-// Hooks
-import * as gtag from '@/utils/gtag';
+import GoogleAnalytics from '@/components/Shared/GoogleAnalytics';
 
 // Constants
 import { KEYWORDS, DESCRIPTION } from '@/constants/AppConstants';
@@ -23,7 +21,6 @@ type RootLayoutTypes = {
 
 // Font
 import { Alexandria } from 'next/font/google';
-import Script from 'next/script';
 const alexandria = Alexandria({ subsets: ['latin'] });
 
 // Metadata
@@ -85,24 +82,7 @@ export default function RootLayout({ children }: RootLayoutTypes) {
   return (
     <html lang='en'>
       <body className={alexandria.className}>
-        <Script
-          strategy='afterInteractive'
-          src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-        />
-        <Script
-          id='gtag-init'
-          strategy='afterInteractive'
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${gtag.GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-          }}
-        />
+        <GoogleAnalytics />
         <Provider>
           <>
             <NextTopLoader
