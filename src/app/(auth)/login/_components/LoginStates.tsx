@@ -271,7 +271,7 @@ const LoginStates: FunctionComponent = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <div className='relative mt-6 border-t-[1px] border-gray-300'>
             <div className=' absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-base-100 px-3 pointer-events-none'>
               <h3 className=' text-lg'>Or</h3>
@@ -280,10 +280,10 @@ const LoginStates: FunctionComponent = () => {
           <div className='mt-6 w-full flex items-center text-center mx-auto'>
             <GoogleAuth setError={setGoogleAuthError} />
           </div>
-        </div>
+        </div> */}
 
         <div>
-          <div className='pt-3 pb-6 text-center text-lg '>
+          <div className='pt-6 pb-6 text-center text-lg '>
             <p className=''>
               Don&apos;t have an account?
               <Link
