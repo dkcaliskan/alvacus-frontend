@@ -174,6 +174,7 @@ const LoginStates: FunctionComponent = () => {
       }));
     }
   };
+
   return (
     <div className=''>
       <form
@@ -190,10 +191,10 @@ const LoginStates: FunctionComponent = () => {
             <div>
               <p
                 className={`${
-                  (!submitStates.error || !googleAuthError) && 'hidden'
+                  !submitStates.error && 'hidden'
                 } bg-error/50 text-center text-white py-1.5 rounded-box my-3`}
               >
-                {submitStates.error || googleAuthError}
+                {submitStates.error}
               </p>
             </div>
             <div className=''>
@@ -220,6 +221,9 @@ const LoginStates: FunctionComponent = () => {
                 type={passwordType}
                 onChange={(e) =>
                   setPasswordState({ value: e.target.value, error: '' })
+                }
+                onInput={(e) => 
+                  setPasswordState({ value: e.currentTarget.value, error: '' })
                 }
                 value={passwordState.value}
                 placeholder='Enter password'

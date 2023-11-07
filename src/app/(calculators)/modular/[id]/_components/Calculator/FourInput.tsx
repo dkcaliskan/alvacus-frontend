@@ -218,7 +218,6 @@ const FourInput: FunctionComponent<FourInputTypes> = ({
       );
     });
 
-    console.log(dynamicFormula);
 
     // Evaluate the dynamic formula
     const result = evaluateFormula({

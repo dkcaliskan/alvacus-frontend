@@ -17,6 +17,7 @@ type AppButtonTypes = {
   text: string;
   secondary?: boolean;
   buttonSuccess?: boolean;
+  successText?: string;
 };
 
 const AppButton: FunctionComponent<AppButtonTypes> = ({
@@ -29,6 +30,7 @@ const AppButton: FunctionComponent<AppButtonTypes> = ({
   text,
   secondary,
   buttonSuccess,
+  successText = 'Success',
 }) => {
   return (
     <button
@@ -41,7 +43,7 @@ const AppButton: FunctionComponent<AppButtonTypes> = ({
       } ${disabled && 'pointer-events-none cursor-default'}`}
     >
       {buttonSuccess ? (
-        'Success'
+        successText
       ) : loading ? (
         <div className='flex items-center text-center justify-center'>
           <p className='mr-2'>Processing</p> <ButtonSpinner />

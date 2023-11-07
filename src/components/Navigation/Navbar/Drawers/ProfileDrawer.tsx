@@ -103,7 +103,7 @@ const ProfileDrawer: FunctionComponent = () => {
       {isProfileDrawerOpen && (
         <div>
           <div
-            className={`absolute bg-base-100 z-50 h-screen w-full top-0 left-0 overflow-x-auto p-1 pb-16`}
+            className={`absolute bg-base-100 z-50 h-screen w-full top-0 left-0 overflow-x-auto p-1 pb-20`}
           >
             <button
               onClick={() => sideDrawerHandler()}

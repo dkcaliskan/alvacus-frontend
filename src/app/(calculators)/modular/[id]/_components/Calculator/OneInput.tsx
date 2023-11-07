@@ -126,14 +126,12 @@ const OneInput: FunctionComponent<OneInputTypes> = ({
       );
     });
 
-    console.log(`dynamicFormula`, dynamicFormula);
     // Evaluate the dynamic formula
     const result = evaluateFormula({
       formula: dynamicFormula,
       fixedLength: 3,
     });
 
-    console.log(`result`, result);
 
     // If output select is true, convert the result
     const outputValue = inputConversion({

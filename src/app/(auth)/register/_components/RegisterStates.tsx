@@ -270,10 +270,10 @@ const RegisterStates: FunctionComponent = () => {
             <div>
               <p
                 className={`${
-                  (!submitStates.error || googleAuthError) && 'hidden'
+                  submitStates.error && 'hidden'
                 } bg-error/50 text-center text-white py-1.5 rounded-box my-3`}
               >
-                {submitStates.error || googleAuthError}
+                {submitStates.error}
               </p>
             </div>
             <div className=''>
@@ -320,6 +320,9 @@ const RegisterStates: FunctionComponent = () => {
                 onChange={(e) =>
                   setPasswordState({ value: e.target.value, error: '' })
                 }
+                onInput={(e) =>
+                  setPasswordState({ value: e.currentTarget.value, error: '' })
+                }
                 value={passwordState.value}
                 placeholder='Enter password'
                 customStyle='custom-bg-color'
@@ -355,6 +358,12 @@ const RegisterStates: FunctionComponent = () => {
                 type={confirmPasswordType}
                 onChange={(e) =>
                   setConfirmPasswordState({ value: e.target.value, error: '' })
+                }
+                onInput={(e) =>
+                  setConfirmPasswordState({
+                    value: e.currentTarget.value,
+                    error: '',
+                  })
                 }
                 value={confirmPasswordState.value}
                 placeholder='Enter confirm password'

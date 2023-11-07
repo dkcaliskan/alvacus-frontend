@@ -61,6 +61,7 @@ const Preview: FunctionComponent<ModularCalculatorTypes> = ({
     inputSixLabel,
     outputLabel,
   };
+
   // If formula length is 1, render OneInput component
   if (formulaLength === 1) {
     return (

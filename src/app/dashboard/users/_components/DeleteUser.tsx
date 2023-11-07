@@ -97,7 +97,6 @@ const DeleteUser: FunctionComponent<DeleteUserTypes> = ({ userId }) => {
         `api/user/delete/${userId}?deleteCalculators=${deleteCalculators}&deleteComments=${deleteComments}`
       );
 
-      console.log(res);
       if (res.status === 200) {
         setIsLoading(false);
         setIsSuccess(true);

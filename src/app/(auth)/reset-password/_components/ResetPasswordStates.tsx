@@ -175,7 +175,6 @@ const ResetPasswordStates: FunctionComponent = () => {
         t: token,
       });
 
-      console.log(res);
 
       // Check if request was successful
       if (res.status !== 200) {

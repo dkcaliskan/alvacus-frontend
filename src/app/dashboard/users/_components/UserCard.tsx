@@ -32,7 +32,7 @@ const UserCardDashboard: FunctionComponent<UserCardTypes> = ({ user }) => {
       <div className='card-body px-0 py-0'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center lgMax:pl-1.5 pl-3 pt-[8.5px]'>
-            <div className='mask mask-squircle bg-base-content h-[45px] w-[45px] bg-opacity-[0.01]'>
+            <div className='bg-base-content bg-opacity-[0.01]'>
               <Image
                 src={
                   user && user.avatar
@@ -42,7 +42,7 @@ const UserCardDashboard: FunctionComponent<UserCardTypes> = ({ user }) => {
                 alt={`Alvacus, ${user ? user.username : '[deleted user]'}`}
                 width={45}
                 height={45}
-                className='mask mask-squircle'
+                className='mask mask-squircle object-cover h-[45px] w-[45px]'
                 placeholder='blur'
                 blurDataURL={
                   user.avatar

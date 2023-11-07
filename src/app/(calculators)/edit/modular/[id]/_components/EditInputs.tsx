@@ -373,6 +373,37 @@ const EditInputs: FunctionComponent<EditInputsTypes> = ({
     }
   };
 
+  // Input selected units
+  const inputSelectedUnits = {
+    isUnitSelect: baseUnitStates.isUnitSelect,
+    ...Object.fromEntries(
+      Object.entries(baseUnitStates).flatMap(([key, value]) => {
+        if (key.includes('input')) {
+          const selectedUnitKey = `${key
+            .replace('Select', '')
+            .replace('BaseUnit', '')}SelectedUnits`;
+
+          const inputNumber = key
+            .replace('Select', '')
+            .replace('input', '')
+            .replace('BaseUnit', '');
+
+          return [
+            // Return InputSelect boolean and InputBaseUnit
+            [key, value],
+
+            // Return InputSelectedUnits
+            [selectedUnitKey, getInputSelectedUnits(inputNumber)],
+          ];
+        }
+        return [];
+      })
+    ),
+    outputSelect: baseUnitStates.outputSelect,
+    outputBaseUnit: baseUnitStates.outputBaseUnit,
+    outputSelectedUnits: outputSelectedUnits,
+  };
+
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -396,37 +427,6 @@ const EditInputs: FunctionComponent<EditInputsTypes> = ({
           value.value,
         ])
       );
-
-      // Input selected units
-      const inputSelectedUnits = {
-        isUnitSelect: baseUnitStates.isUnitSelect,
-        ...Object.fromEntries(
-          Object.entries(baseUnitStates).flatMap(([key, value]) => {
-            if (key.includes('input')) {
-              const selectedUnitKey = `${key
-                .replace('Select', '')
-                .replace('BaseUnit', '')}SelectedUnits`;
-
-              const inputNumber = key
-                .replace('Select', '')
-                .replace('input', '')
-                .replace('BaseUnit', '');
-
-              return [
-                // Return InputSelect boolean and InputBaseUnit
-                [key, value],
-
-                // Return InputSelectedUnits
-                [selectedUnitKey, getInputSelectedUnits(inputNumber)],
-              ];
-            }
-            return [];
-          })
-        ),
-        outputSelect: baseUnitStates.outputSelect,
-        outputBaseUnit: baseUnitStates.outputBaseUnit,
-        outputSelectedUnits: outputSelectedUnits,
-      };
 
       // Request body
       const body = {
@@ -678,7 +678,7 @@ const EditInputs: FunctionComponent<EditInputsTypes> = ({
               inputFiveLabel={inputLabelStates.inputFive.value}
               inputSixLabel={inputLabelStates.inputSix.value}
               outputLabel={inputLabelStates.output.value}
-              inputSelects={baseUnitStates}
+              inputSelects={inputSelectedUnits}
             />
           </div>
         )}

@@ -103,7 +103,8 @@ const DeleteCalculator: FunctionComponent<DeleteCalculatorTypes> = ({
       <SuccessMessage>
         <div className='prose max-w-none -mt-6'>
           <p className='mb-6  text-center'>
-            Your calculator has been successfully deleted.
+            Your calculator has been successfully deleted. Redirecting you to
+            the homepage...
           </p>
         </div>
       </SuccessMessage>
