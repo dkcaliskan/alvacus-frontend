@@ -39,7 +39,7 @@ const CalculatorCardDashboard: FunctionComponent<CalculatorCardTypes> = ({
       <div className='card-body px-0 py-0'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center lgMax:pl-1.5 pl-3 pt-[8.5px]'>
-            <div className='bg-base-content bg-opacity-[0.01]'>
+            <div className='mask mask-squircle bg-base-content bg-opacity-[0.01]'>
               <Image
                 src={
                   calculator.author && calculator.author.avatar

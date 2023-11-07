@@ -44,7 +44,7 @@ const UserInfo: FunctionComponent<UserInfoTypes> = ({ user }) => {
       <div className='custom-bg-color p-3 py-[18px] lgMax:mb-6 lg:rounded-box'>
         <div className='flex justify-between'>
           <div className='flex items-center'>
-            <div className='mask mask-squircle  smallestMobile:h-[75px] smallestMobile:w-[75px] lg:h-[120px] lg:w-[120px] h-[100px] w-[100px] bg-base-content bg-opacity-[0.01] p-px'>
+            <div className='mask mask-squircle bg-base-content bg-opacity-[0.01] p-px'>
               <Image
                 src={
                   user.avatar
@@ -53,7 +53,7 @@ const UserInfo: FunctionComponent<UserInfoTypes> = ({ user }) => {
                 }
                 width={120}
                 height={120}
-                className='mask mask-squircle object-contain'
+                className='mask mask-squircle object-contain smallestMobile:h-[75px] smallestMobile:w-[75px] lg:h-[120px] lg:w-[120px] h-[100px] w-[100px] '
                 alt={`${user.username} Alvacus profile picture`}
                 placeholder='blur'
                 blurDataURL={`${user.avatar}`}
