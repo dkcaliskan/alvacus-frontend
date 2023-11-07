@@ -270,7 +270,7 @@ const RegisterStates: FunctionComponent = () => {
             <div>
               <p
                 className={`${
-                  submitStates.error && 'hidden'
+                  !submitStates.error && 'hidden'
                 } bg-error/50 text-center text-white py-1.5 rounded-box my-3`}
               >
                 {submitStates.error}
