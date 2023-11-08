@@ -2,7 +2,7 @@ export const BACKEND_URL = `${process.env.NEXT_PUBLIC_BACKEND_URL}`;
 export const BASE_URL = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 export const SITE_NAME = 'Alvacus';
 export const DESCRIPTION =
-  'Alvacus is the ultimate calculator creation tool for students, professionals, and anyone in need of quick math solutions. Our app allows you to easily create custom calculators using your own formulas, which can then be shared on our interactive dashboard with other users. These users can save your calculators to their profiles, try them out, and leave comments for feedback. With Alvacus, you have the power of customizable calculators at your fingertips – no downloads necessary. Try it now and see the difference for yourself.';
+  'Revolutionize calculations with our webapp Alvacus: Custom-build calculators from specific formulas, enjoy seamless unit conversions, and engage with features like profile saving, commenting, and easy sharing. Tailored for accuracy and collaboration.';
 export const KEYWORDS = [
   'Alvacus',
   'Alvacus calculator',
