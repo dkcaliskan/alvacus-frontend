@@ -16,7 +16,7 @@ export default async function sitemap() {
   const calculatorPaths =
     calculators.map((calculator) => {
       return {
-        url: `${BASE_URL}/${
+        url: `${BASE_URL}/${calculator.type}/${
           calculator.type === 'modular' ? calculator._id : calculator.slug
         }`,
         lastModified: calculator.updatedAt,
