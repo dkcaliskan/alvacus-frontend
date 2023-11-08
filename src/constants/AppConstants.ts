@@ -2,7 +2,7 @@ export const BACKEND_URL = `${process.env.NEXT_PUBLIC_BACKEND_URL}`;
 export const BASE_URL = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 export const SITE_NAME = 'Alvacus';
 export const DESCRIPTION =
-  'Revolutionize calculations with our webapp Alvacus: Custom-build calculators from specific formulas, enjoy seamless unit conversions, and engage with features like profile saving, commenting, and easy sharing. Tailored for accuracy and collaboration.';
+  'Revolutionize calculations using Alvacus: Custom-build calculators from specific formulas, enjoy seamless unit conversions, and engage with profile saving, commenting, and easy sharing. Tailored for accuracy and collaboration.';
 export const KEYWORDS = [
   'Alvacus',
   'Alvacus calculator',
