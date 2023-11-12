@@ -10,6 +10,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Dashboard',
+  alternates: {
+    canonical: 'https://alvacus.com/dashboard',
+  },
 };
 
 const Dashboard: NextPage = () => {

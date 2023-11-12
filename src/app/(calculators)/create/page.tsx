@@ -13,6 +13,17 @@ const CreateInputs = dynamic(() => import('./_components/CreateInputs'), {
   ssr: false,
 });
 
+// Metadata
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Create Calculator',
+  description: 'Create a calculator for any purpose',
+  alternates: {
+    canonical: 'https://alvacalculators.com/create',
+  },
+};
+
 const Create: NextPage = () => {
   return (
     <div>

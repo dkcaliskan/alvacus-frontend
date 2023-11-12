@@ -10,6 +10,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Account Settings',
+  alternates: {
+    canonical: 'https://alvacus.com/profile/settings/account',
+  },
 };
 
 const AccountSettings: NextPage = async () => {

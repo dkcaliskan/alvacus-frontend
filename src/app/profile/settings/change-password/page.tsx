@@ -10,6 +10,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Change Password',
+  alternates: {
+    canonical: 'https://alvacus.com/profile/settings/change-password',
+  },
 };
 
 const ChangePassword: NextPage = async () => {

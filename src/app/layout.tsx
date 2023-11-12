@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Doğu Kaan Çalışkan' }],
   creator: 'Doğu Kaan Çalışkan',
   publisher: 'Doğu Kaan Çalışkan',
-  metadataBase: new URL('https://alvacus.com'),
+  metadataBase: new URL('https://www.alvacus.com'),
   alternates: {
     canonical: '/',
   },

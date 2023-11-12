@@ -15,6 +15,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Login',
+  alternates: {
+    canonical: 'https://alvacus.com/login',
+  },
 };
 
 export default function LoginPage() {

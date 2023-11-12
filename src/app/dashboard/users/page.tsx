@@ -8,6 +8,9 @@ import UsersSecurePage from './_components/SecurePage';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Users',
+  alternates: {
+    canonical: 'https://alvacus.com/dashboard/users',
+  },
 };
 
 const DashboardUsers = () => {

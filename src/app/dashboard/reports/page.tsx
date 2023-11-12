@@ -8,6 +8,9 @@ import ReportsSecurePage from './_components/SecurePage';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Reports',
+  alternates: {
+    canonical: 'https://alvacus.com/dashboard/reports',
+  },
 };
 
 const DashboardReports = () => {

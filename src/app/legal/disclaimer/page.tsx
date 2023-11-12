@@ -11,6 +11,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Disclaimer',
+  alternates: {
+    canonical: 'https://alvacus.com/legal/disclaimer',
+  },
 };
 
 const Disclaimer: NextPage = async () => {

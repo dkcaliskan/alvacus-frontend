@@ -10,6 +10,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Delete Account',
+  alternates: {
+    canonical: 'https://alvacus.com/profile/settings/delete-account',
+  },
 };
 
 const Privacy: NextPage = async () => {

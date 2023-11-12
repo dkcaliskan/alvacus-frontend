@@ -11,6 +11,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About',
+  alternates: {
+    canonical: 'https://alvacus.com/about',
+  },
 };
 
 const About: NextPage = async () => {

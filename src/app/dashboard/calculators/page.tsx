@@ -9,6 +9,9 @@ import CalculatorsSecurePage from './_components/SecurePage';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Calculators',
+  alternates: {
+    canonical: 'https://alvacus.com/dashboard/calculators',
+  },
 };
 
 const DashboardCalculators: NextPage = async () => {

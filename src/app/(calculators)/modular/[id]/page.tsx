@@ -55,7 +55,7 @@ export async function generateMetadata({
       description: calculator.description,
     },
     alternates: {
-      canonical: 'https://alvacus.com/' + calculator._id,
+      canonical: 'https://alvacus.com/modular/' + calculator._id,
     },
     twitter: {
       card: 'summary_large_image',

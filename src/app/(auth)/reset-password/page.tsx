@@ -18,6 +18,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Reset Password',
+  alternates: {
+    canonical: 'https://alvacus.com/reset-password',
+  },
 };
 
 export default function ResetPasswordPage() {

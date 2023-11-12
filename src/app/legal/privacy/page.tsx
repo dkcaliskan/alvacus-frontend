@@ -11,6 +11,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy policy',
+  alternates: {
+    canonical: 'https://alvacus.com/privacy',
+  },
 };
 
 const Privacy: NextPage = async () => {

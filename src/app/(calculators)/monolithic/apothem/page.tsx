@@ -48,6 +48,9 @@ export async function generateMetadata(): Promise<Metadata> {
       title: calculator.title + ' | Alvacus',
       description: calculator.description,
     },
+    alternates: {
+      canonical: 'https://alvacus.com/monolithic/apothem',
+    },
   };
 }
 
