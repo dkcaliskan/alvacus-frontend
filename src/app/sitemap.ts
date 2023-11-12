@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // Constants
-import { BACKEND_URL, BASE_URL } from '@/constants/AppConstants';
+import { BACKEND_URL } from '@/constants/AppConstants';
 
 // Types
 import type { CalculatorTypes } from '@/types/calculators.d';
@@ -10,6 +10,8 @@ import type { CalculatorTypes } from '@/types/calculators.d';
 export default async function sitemap() {
   // Get all calculators from the API
   const res = await axios.get(`${BACKEND_URL}/api/calculators`);
+
+  const BASE_URL = 'https://www.alvacus.com';
 
   const calculators: CalculatorTypes[] = await res.data.calculators;
 

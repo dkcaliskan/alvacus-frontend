@@ -16,3 +16,4 @@ Host: https://www.alvacus.com
 
 # Sitemaps
 Sitemap: https://www.alvacus.com/sitemap.xml
+Sitemap: https://alvacus.com/sitemap.xml
