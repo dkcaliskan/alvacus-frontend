@@ -11,7 +11,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Delete Account',
   alternates: {
-    canonical: 'https://alvacus.com/profile/settings/delete-account',
+    canonical: 'https://www.alvacus.com/profile/settings/delete-account',
   },
 };
 

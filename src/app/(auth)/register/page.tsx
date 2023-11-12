@@ -16,7 +16,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Register',
   alternates: {
-    canonical: 'https://alvacus.com/register',
+    canonical: 'https://www.alvacus.com/register',
   },
 };
 

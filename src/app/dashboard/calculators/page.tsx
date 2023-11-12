@@ -10,7 +10,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Calculators',
   alternates: {
-    canonical: 'https://alvacus.com/dashboard/calculators',
+    canonical: 'https://www.alvacus.com/dashboard/calculators',
   },
 };
 

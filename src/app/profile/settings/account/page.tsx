@@ -11,7 +11,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Account Settings',
   alternates: {
-    canonical: 'https://alvacus.com/profile/settings/account',
+    canonical: 'https://www.alvacus.com/profile/settings/account',
   },
 };
 

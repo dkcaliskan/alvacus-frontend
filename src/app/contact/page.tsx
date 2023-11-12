@@ -18,7 +18,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact',
   alternates: {
-    canonical: 'https://alvacus.com/contact',
+    canonical: 'https://www.alvacus.com/contact',
   },
 };
 

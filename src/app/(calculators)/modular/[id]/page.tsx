@@ -55,7 +55,7 @@ export async function generateMetadata({
       description: calculator.description,
     },
     alternates: {
-      canonical: 'https://alvacus.com/modular/' + calculator._id,
+      canonical: 'https://www.alvacus.com/modular/' + calculator._id,
     },
     twitter: {
       card: 'summary_large_image',
@@ -63,7 +63,7 @@ export async function generateMetadata({
       title: calculator.title + ' | Alvacus',
       description: calculator.description,
       images: [
-        'https://alvacus.com/assets/icons/core/android-chrome-512x512.png',
+        'https://www.alvacus.com/assets/icons/core/android-chrome-512x512.png',
       ],
     },
   };

@@ -12,7 +12,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Disclaimer',
   alternates: {
-    canonical: 'https://alvacus.com/legal/disclaimer',
+    canonical: 'https://www.alvacus.com/legal/disclaimer',
   },
 };
 

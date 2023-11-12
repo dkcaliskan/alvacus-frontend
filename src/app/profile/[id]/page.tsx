@@ -52,7 +52,7 @@ export async function generateMetadata({
         {
           url: user.avatar
             ? user.avatar
-            : 'https://Alvacus.com/assets/icons/core/android-chrome-512x512.png',
+            : 'https://www.alvacus.com/assets/icons/core/android-chrome-512x512.png',
           width: 800,
           height: 600,
           alt: user.username + ' avatar',
@@ -61,7 +61,7 @@ export async function generateMetadata({
       ],
     },
     alternates: {
-      canonical: 'https://alvacus.com/' + user._id,
+      canonical: 'https://www.alvacus.com/' + user._id,
     },
     twitter: {
       card: 'summary_large_image',
@@ -69,7 +69,7 @@ export async function generateMetadata({
       title: user.username + ' profile' + ' | Alvacus',
       description: DESCRIPTION,
       images: [
-        'https://alvacus.com/assets/icons/core/android-chrome-512x512.png',
+        'https://www.alvacus.com/assets/icons/core/android-chrome-512x512.png',
       ],
     },
   };

@@ -43,11 +43,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Alvacus',
     description: DESCRIPTION,
-    url: 'https://alvacus.com',
+    url: 'https://www.alvacus.com',
     siteName: 'alvacus',
     images: [
       {
-        url: 'https://alvacus.com/assets/icons/core/android-chrome-512x512.png',
+        url: 'https://www.alvacus.com/assets/icons/core/android-chrome-512x512.png',
         width: 512,
         height: 512,
         alt: 'Alvacus logo',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     title: 'Alvacus',
     description: DESCRIPTION,
     images: [
-      'https://alvacus.com/assets/icons/core/android-chrome-512x512.png',
+      'https://www.alvacus.com/assets/icons/core/android-chrome-512x512.png',
     ],
   },
 

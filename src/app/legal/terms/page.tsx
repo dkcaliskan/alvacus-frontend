@@ -12,7 +12,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms of use',
   alternates: {
-    canonical: 'https://alvacus.com/legal/terms',
+    canonical: 'https://www.alvacus.com/legal/terms',
   },
 };
 

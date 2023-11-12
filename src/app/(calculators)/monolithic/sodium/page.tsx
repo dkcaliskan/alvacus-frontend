@@ -49,7 +49,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description: calculator.description,
     },
     alternates: {
-      canonical: 'https://alvacus.com/monolithic/sodium',
+      canonical: 'https://www.alvacus.com/monolithic/sodium',
     },
   };
 }
