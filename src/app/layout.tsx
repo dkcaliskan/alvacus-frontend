@@ -66,6 +66,7 @@ export const metadata: Metadata = {
       'https://www.alvacus.com/assets/icons/core/android-chrome-512x512.png',
     ],
   },
+  robots: 'index, follow',
 
   /* verification: {
     google: 'google',
