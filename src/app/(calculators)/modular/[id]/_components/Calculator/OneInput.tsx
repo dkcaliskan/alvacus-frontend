@@ -78,7 +78,7 @@ const OneInput: FunctionComponent<OneInputTypes> = ({
     const { id, value, options, selectedIndex } = e.target;
 
     // Set input one select states
-    if (id === (inputOneLabel + '-select').toLowerCase()) {
+    if (id === (inputOneLabel.replaceAll(' ', '-') + '-select').toLowerCase()) {
       return setInputOneSelectStates({
         inputOneLabel: options[selectedIndex].text,
         inputOneValue: value,
@@ -131,7 +131,6 @@ const OneInput: FunctionComponent<OneInputTypes> = ({
       formula: dynamicFormula,
       fixedLength: 3,
     });
-
 
     // If output select is true, convert the result
     const outputValue = inputConversion({

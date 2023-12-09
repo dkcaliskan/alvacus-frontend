@@ -102,7 +102,7 @@ const ThreeInput: FunctionComponent<ThreeInputTypes> = ({
     const { id, value, options, selectedIndex } = e.target;
 
     // Set input one select states
-    if (id === (inputOneLabel + '-select').toLowerCase()) {
+    if (id === (inputOneLabel.replaceAll(' ', '-') + '-select').toLowerCase()) {
       return setInputOneSelectStates({
         inputOneLabel: options[selectedIndex].text,
         inputOneValue: value,
@@ -150,6 +150,11 @@ const ThreeInput: FunctionComponent<ThreeInputTypes> = ({
       selectBaseUnit: inputOneBaseUnit,
       selectTargetUnit: inputOneSelectStates.inputOneValue,
     });
+
+    console.log(`inputOneStates`, inputOneStates);
+    console.log(`inputOneBaseUnit`, inputOneBaseUnit);
+    console.log(`inputOneSelectStates`, inputOneSelectStates.inputOneValue);
+    console.log(`inputOneValue`, inputOneValue);
 
     const inputTwoValue = inputConversion({
       inputStates: inputTwoStates,

@@ -133,7 +133,7 @@ const FiveInput: FunctionComponent<FiveInputTypes> = ({
     const { id, value, options, selectedIndex } = e.target;
 
     // Set input one select states
-    if (id === (inputOneLabel + '-select').toLowerCase()) {
+    if (id === (inputOneLabel.replaceAll(' ', '-') + '-select').toLowerCase()) {
       return setInputOneSelectStates({
         inputOneLabel: options[selectedIndex].text,
         inputOneValue: value,
