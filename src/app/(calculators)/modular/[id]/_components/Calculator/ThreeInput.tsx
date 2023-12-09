@@ -151,11 +151,6 @@ const ThreeInput: FunctionComponent<ThreeInputTypes> = ({
       selectTargetUnit: inputOneSelectStates.inputOneValue,
     });
 
-    console.log(`inputOneStates`, inputOneStates);
-    console.log(`inputOneBaseUnit`, inputOneBaseUnit);
-    console.log(`inputOneSelectStates`, inputOneSelectStates.inputOneValue);
-    console.log(`inputOneValue`, inputOneValue);
-
     const inputTwoValue = inputConversion({
       inputStates: inputTwoStates,
       selectBaseUnit: inputTwoBaseUnit,
